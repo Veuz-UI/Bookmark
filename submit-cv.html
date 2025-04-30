@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookMark Recruitment</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav.png">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css//owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+
+</head>
+
+<body>
+
+  <!-- loader -->
+  <div class="loader">
+    <div class="loader-content">
+        <img src="assets/img/fav.png" alt="Loader" class="loader-icon">
+    </div>
+</div>
+  <!-- loader -->
+
+  <!-- to top -->
+  <button id="back-to-top" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <!-- to top -->
+
+  <header>
+    <div class="nav-top">
+      <div class="social-icons">
+        <a href="#" class=""><i class="fab fa-youtube"></i></a>
+        <a href="#" class=""><i class="fab fa-facebook"></i></a>
+        <a href="#" class=""><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="nav-right">
+        <div class="call-info">
+          <i class="fas fa-phone"></i>
+          <span>+1 234 567 8900</span>
+        </div>
+
+      
+      </div>
+    </div>
+
+    <div class="main-nav" id="navbar">
+      <div>
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="logo-width"></a>
+      </div>
+
+      <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="toggle-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-lg-0 w-100 justify-content-center gap-3 main-nav-links">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="services.html">Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="applicant.html">Applicants</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="employers.html">Employers</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blogs</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+
+              <div class="sm-show-logo">
+                <button class="head-btn"> <span>Contact US</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="main-nav-right sm-hide-logo">
+
+        <div>
+          <button class="head-btn"> <span>Contact US</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- banner  -->
+  <div class="inner-banner">
+    <div class="inner-banner-overlay"></div>
+    <div class="inner-banner-cntnt">
+      <div class="custom-container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Submit your CV</li>
+          </ol>
+        </nav>
+        <h1>Bookmark Registration</h1>
+        <p>Your trusted partner in educational recruitment, connecting exceptional educators with outstanding
+          institutions.</p>
+      </div>
+    </div>
+  </div>
+  <!-- banner  -->
+
+  <!-- main-body -->
+  <div class="main-body">
+
+    <!-- Services list -->
+
+    <section class="contact-section section-padding">
+      <div class="custom-container">
+        <h6 class="mandatory-text">Fields marked with an * are mandatory fields</h6>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label for="">What is your full name? <span>*</span></label>
+                  <input type="text" class="form-control"
+                    placeholder=" [First then your last name, please, e.g. Jane Doe]" required>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label for="">What is your date of birth? <span>*</span></label>
+                  <input type="text" class="form-control" placeholder="dd/mm/yyyy" required>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label for="">What is your gender? <span>*</span></label>
+                  <select class="form-control" required>
+                    <option value="" selected disabled>Please Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                  </select>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label for="">What is your email address? <span>*</span></label>
+                  <input type="email" class="form-control" placeholder="Your Email*" required>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label for="phone">What is your phone number? <span>*</span></label>
+                  <input type="tel" id="phone"
+                    placeholder="Please include international dialling code such as +971 123456789" class="form-control"
+                    required>
+                  <span class="focus-border"></span>
+
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label for="phone">Which of these passports do you hold?<span>*</span></label>
+                  <select class="form-control" name="country" required>
+                    <option value="" selected disabled>Please Select</option>
+                    <option value="American">American</option>
+                    <option value="Australian">Australian</option>
+                    <option value="British">British</option>
+                    <option value="Canadian">Canadian</option>
+                    <option value="European Union nation">European Union nation</option>
+                    <option value="Irish">Irish</option>
+                    <option value="New Zealander">New Zealander</option>
+                    <option value="South African">South African</option>
+                    <option value="Other">Other</option>
+
+                  </select>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label for="phone">What country were you born in?<span>*</span></label>
+                  <select class="form-control" name="country" required>
+                    <option value="" selected disabled>Please Select</option>
+                    <option value="American">America</option>
+                    <option value="Australian">Australia</option>
+
+                    <option value="Canadian">Canada</option>
+                    <option value="European Union nation">Ireland</option>
+                    <option value="New Zealander">New Zealand</option>
+                    <option value="South African">South Africa</option>
+                    <option value="Other">Other</option>
+
+                  </select>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+
+
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label for="phone">What is your current country of residence?<span>*</span></label>
+                  <input type="text" class="form-control" required>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="phone">Visa question, marital status: Which of these would best fit your travel
+                    plan?<span>*</span></label>
+                  <select class="form-control" name="country" required>
+                    <option value="" selected disabled>Please Select</option>
+                    <option value="Travelling alone">Travelling alone</option>
+                    <option value="Single but travelling with another person on separate visas">
+                      Single but travelling with another person on separate visas
+                    </option>
+                    <option value="Married/Civil Partnership - partner travelling on their own Visa">
+                      Married/Civil Partnership - partner travelling on their own Visa
+                    </option>
+                    <option value="Married/Civil Partnership - travelling on dependent (joint) Visa">
+                      Married/Civil Partnership - travelling on dependent (joint) Visa
+                    </option>
+                    <option value="Unmarried Couple - partner travelling on their own Visa">
+                      Unmarried Couple - partner travelling on their own Visa
+                    </option>
+
+                  </select>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="phone">If you are travelling with another person, are they a teacher seeking work?</label>
+                  <select class="form-control" name="country" required>
+                    <option value="" selected disabled>Please Select</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="phone">Visa question, children under 18: Would you wish to bring children with you?
+                    <span>*</span></label>
+                  <select class="form-control" name="country" required>
+                    <option value="" selected disabled>Please Select</option>
+                    <option value="No dependants or dependant children not travelling with you">
+                      No dependants or dependant children not travelling with you
+                    </option>
+                    <option value="Dependant children travelling but on another person's visa">
+                      Dependant children travelling but on another person's visa
+                    </option>
+                    <option value="Travelling with 1 dependant child on your visa">
+                      Travelling with 1 dependant child on your visa
+                    </option>
+                    <option value="Travelling with 2 dependant children on your visa">
+                      Travelling with 2 dependant children on your visa
+                    </option>
+                    <option value="Travelling with 3+ dependant children on your visa">
+                      Travelling with 3+ dependant children on your visa
+                    </option>
+                  </select>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="phone">What was your major subject in your undergraduate degree? <span>*</span></label>
+                  <select class="form-control" name="country" required>
+                    <option value="" selected disabled>Please Select</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="">What was your major subject in your undergraduate degree? <span>*</span></label>
+                  <textarea class="form-control" placeholder="Your Message*" rows="5" required></textarea>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="">What was your major subject in your teaching qualification? <span>*</span></label>
+                  <textarea class="form-control" placeholder="Your Message*" rows="5" required></textarea>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label>Please can you confirm where you are licensed to teach? [Select all that
+                    apply]<span>*</span></label>
+                  <div class="radio-group">
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="yes" required>
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Australia</span>
+                    </label>
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">UK (QTS/GTC/EWC registered)</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Canada (Provincial Licence Holder)</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">South Africa</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">New Zealand</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">US (State Licence Holder)</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Other</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="">What is your current job title? <span>*</span></label>
+                  <textarea class="form-control" placeholder="Your Message*" rows="5" required></textarea>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="">What role are you seeking? <span>*</span></label>
+                  <textarea class="form-control" placeholder="Your Message*" rows="5" required></textarea>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="phone">Do you have international teaching experience? <span>*</span></label>
+                  <select class="form-control" name="country" required>
+                    <option value="" selected disabled>Please Select</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label>Which of these curriculum have you taught? (Select as many as apply)<span>*</span></label>
+                  <div class="radio-group">
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="yes" required>
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Australian</span>
+                    </label>
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Canadian</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">International Baccalaureate (PYP, MYP, DP)</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">International (eg IPC, IMYC, iGCSE)</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Irish</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Montessori</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">New Zealand</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Scottish</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">South African</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">UK National Curriculum for England and Wales (EYFS, KS1-3, GCSE, A Level)</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">US (Common Core, AP)</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Other</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="phone">How many years of post-qualifying teaching experience do you have? <span>*</span></label>
+                  <select class="form-control" name="country" required>
+                    <option value="" selected disabled>Please Select</option>
+                    <option value="Yes">0-1</option>
+                    <option value="No">1-2</option>
+                    <option value="Yes">3-4</option>
+                    <option value="No">5-6</option>
+                    <option value="Yes">6-7</option>
+
+                  </select>
+                  <span class="focus-border"></span>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label>What region would you be hoping to teach in?<span>*</span></label>
+                  <div class="radio-group">
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="yes" required>
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Australian</span>
+                    </label>
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Canadian</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">International Baccalaureate (PYP, MYP, DP)</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">International (eg IPC, IMYC, iGCSE)</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Irish</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Montessori</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">New Zealand</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Scottish</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">South African</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">UK National Curriculum for England and Wales (EYFS, KS1-3, GCSE, A Level)</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">US (Common Core, AP)</span>
+                    </label>
+
+                    <label class="custom-radio square">
+                      <input type="radio" name="teaching_license" value="no">
+                      <span class="radio-checkmark"></span>
+                      <span class="radio-label">Other</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <button type="submit" class="submit-btn">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services list -->
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container custom-container">
+        <div class="footer-col">
+          <img src="assets/img/logo.png" alt="Bookmark Logo" class="footer-logo">
+          <p class="footer-dis">Let’s build the future of education together. <span>Partner with us today!</span></p>
+        </div>
+        <div class="footer-col">
+          <h4>Employer</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Find Vacancy Based On</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Job Location</a></li>
+            <li><a href="#">Company Name</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Address</h4>
+          <ul>
+            <li><a href="mailto:hello@bookmark.com"><strong>hello@bookmark.com</strong></a></li>
+            <li>SR No.98 lorem, ipsum</li>
+            <li>West Java, Canada</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Bookmark – All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- footer -->
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Place these scripts right before closing body tag -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/font-awsome.js"></script>
+  <!-- Other scripts can follow -->
+  <script src="assets/js/script.js" defer></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="assets/js/lenis.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const phoneInput = document.querySelector("#phone");
+      const iti = window.intlTelInput(phoneInput, {
+        separateDialCode: true,
+        utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        initialCountry: "auto",
+        geoIpLookup: function (callback) {
+          fetch("https://ipapi.co/json")
+            .then(res => res.json())
+            .then(data => callback(data.country_code))
+            .catch(() => callback("us"));
+        }
+      });
+
+      // Validation on form submit
+      const form = document.querySelector('#contactForm');
+      form.addEventListener('submit', function (e) {
+        if (!iti.isValidNumber()) {
+          e.preventDefault();
+          phoneInput.classList.add('is-invalid');
+        } else {
+          phoneInput.classList.remove('is-invalid');
+        }
+      });
+
+      // Format as user types
+      phoneInput.addEventListener('input', function () {
+        if (iti.isValidNumber()) {
+          phoneInput.classList.remove('is-invalid');
+        }
+      });
+    });
+  </script>
+
+<script>
+  AOS.init({
+    duration: 2000,
+    once: false     
+  });
+</script>
+
+<script>
+  // Add this at the beginning of your script
+document.addEventListener('DOMContentLoaded', function() {
+  const loader = document.querySelector('.loader');
+  
+  // Hide loader after content loads
+  window.addEventListener('load', function() {
+      setTimeout(() => {
+          gsap.to(loader, {
+              opacity: 0,
+              duration: 0.5,
+              onComplete: () => {
+                  loader.style.display = 'none';
+              }
+          });
+      }, 2000); // Adjust time as needed
+  });
+});
+</script>
+</body>
+
+
+
+
+</html>
