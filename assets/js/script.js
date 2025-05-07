@@ -706,3 +706,55 @@ document.querySelector('.video-image-wrapper').addEventListener('click', functio
     });
   });
 
+// radio
+
+document.addEventListener('DOMContentLoaded', function() {
+  const tabButtons = document.querySelectorAll('.tab-btn');
+  const sortSelect = document.querySelector('.sort-select');
+
+  // Handle view switching
+  tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+          // Remove active class from all buttons
+          tabButtons.forEach(btn => btn.classList.remove('active'));
+          // Add active class to clicked button
+          button.classList.add('active');
+          
+          const view = button.dataset.view;
+          // Add your view switching logic here
+          console.log('Switching to', view, 'view');
+      });
+  });
+
+  // Handle sorting
+  sortSelect.addEventListener('change', (e) => {
+      const sortValue = e.target.value;
+      // Add your sorting logic here
+      console.log('Sorting by', sortValue);
+  });
+});
+
+
+
+// dropdown
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all dropdown items
+  const dropdownItems = document.querySelectorAll('.dropdown-item');
+  
+  dropdownItems.forEach(item => {
+      item.addEventListener('click', function(e) {
+          // Only prevent default if href is #
+          if(this.getAttribute('href') === '#') {
+              e.preventDefault();
+          } else {
+              // Allow navigation for real links
+              window.location.href = this.getAttribute('href');
+          }
+      });
+  });
+});
+
+
+// sort
+
