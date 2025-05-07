@@ -19,36 +19,6 @@ window.addEventListener('scroll', () => {
 
 //   service-box
 
-// Register ScrollTrigger plugin
-gsap.registerPlugin(ScrollTrigger);
-
-// Create a timeline
-const tl = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".service-section",
-    start: "top center+=100",
-    end: "bottom center-=100",
-    toggleActions: "play none reverse none", // Changed this line
-    scrub: 1, // Added smooth scrubbing
-    markers: false
-  }
-});
-
-// Select all service boxes
-const boxes = gsap.utils.toArray('.service-box');
-
-// Add animations to timeline with stagger
-tl.from(boxes, {
-  x: -100,
-  opacity: 0,
-  duration: 1,
-  ease: "power2.out",
-  stagger: {
-    each: 0.3,
-    from: "start",
-    ease: "power2.inOut"
-  }
-});
 
 //  tab
 

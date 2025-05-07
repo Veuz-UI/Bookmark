@@ -233,7 +233,6 @@ img {
 .dropdown {
 	position: relative;
 	display: inline-block;
-	margin-right: 15px;
 }
 
 .dropdown-toggle {
@@ -4064,6 +4063,53 @@ textarea.form-control {
 	.expertise-box-blue{
 		flex-direction: column;
 	}
+	.dream-box{
+		flex-direction: column;
+		padding: 10px;
+		gap: 10px;
+	}
+	.more-buttons {
+		width: 200px;
+	}
+	.section-title h2 {
+		margin-bottom: 10px;
+	}
+	.step-content{
+		flex-direction: column;
+	}
+	.step-left {
+		width: 100%;
+	}
+	.step-right {
+		width: 100%;
+	}
+	.timeline-cntnt{
+		padding-left: 0px;
+	}
+	.mobile-step-2{
+		flex-direction: column-reverse;
+	}
+	.step-icon{
+		display: none;
+	}
+	.timeline-cntnt{
+		border: none;
+	}
+	.step-content {
+        gap: 10px;
+    }
+	.step-image{
+		margin-top: 10px;
+	}
+	.section-no-bottom-padding{
+		padding-bottom: 0px !important;
+	}
+	.blog-div{
+		flex-direction: column;
+	}
+	#navbar{
+		top: 45px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -4087,15 +4133,13 @@ textarea.form-control {
 	.counter-div{
 		padding-right: 20px;
 	}
-	.timeline-cntnt{
-		padding-left: 30px;
-	}
+
 	.step-icon{
 		left: -27px;
 	}
 	.step-content {
 		display: flex;
-		gap: 30px;
+		gap: 10px;
 	}
 	.exllence-main {
         padding: 60px 10px;
@@ -4177,6 +4221,7 @@ textarea.form-control {
 	.about-title .main-para {
 		font-size: 15px;
 	}
+	
 }
 
 @media (max-width: 600px) {
@@ -4260,5 +4305,12 @@ textarea.form-control {
 	}
 	#navbar {
 		top: 35px;
+	}
+}
+
+
+@media (max-width: 350px) {
+	#navbar {
+		top: 30px;
 	}
 }
